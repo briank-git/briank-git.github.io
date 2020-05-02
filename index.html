@@ -62,7 +62,7 @@
                 <ul>
                     <li><h2>Projects</h2></li>
                     <li>
-                        <img src = Octocat.png width= 100 height = 80> 
+                        <img class = "image" id="img1" src= "Octocat.png" alt="InsightUBC">
                         <div class = "project">
                             <h2>InsightUBC</h2>
                             <span class = "project-description">
@@ -74,9 +74,9 @@
                         </div>
                     </li>
                     <li>
-                        <img src = Octocat.png width= 100 height = 80>
+                        <img class = "image" id="img2" src= "Octocat.png" alt="WorkScheduler">
                         <div class = "project">
-                            <h2>InsightUBC</h2>
+                            <h2>WorkScheduler</h2>
                             <span class = "project-description">
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
@@ -86,9 +86,9 @@
                         </div>
                     </li>
                     <li>
-                        <img src = Octocat.png width= 100 height = 80>
+                        <img class = "image" id="img3" src= "Octocat.png" alt="BFS/DFS Image Fills">
                         <div class = "project">
-                            <h2>InsightUBC</h2>
+                            <h2>BFS/DFS Image Fills</h2>
                             <span class = "project-description">
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
@@ -98,6 +98,19 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="modalImg">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
             </div>
             
             <footer>
@@ -125,6 +138,7 @@
             <script src = "out/index.js"></script>
             <script src = "out/weatherapp.js"></script>
             <script src = "out/skycons.js"></script>
+            <script src = "out/modal.js"></script>
         </main>
         
 
