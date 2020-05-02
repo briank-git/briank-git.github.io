@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background_nightsky.jpg);
+    background-size: cover;
+    color: white;
+}
+
+/* header */
+
+header {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #375e97;
+}
+
+    /* header name section */
+
+.header-name {
+    padding-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: xx-large;
+    float: left;
+}
+
+.header-name-subtext {
+    font-size: medium;
+    font-variant: none;
+}
+
+    /* header link section */
+
+.text-link {
+    float: right;
+    margin-right: 50px;
+}
+
+.link {
+    position: relative;
+    top: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.icons {
+    float: right;
+    margin-right: 20px;
+}
+
+.icon-link {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+/* about me */
+
+.aboutme {
+    width: 40%;
+    margin: 100px auto;
+}
+
+.aboutme p {
+    padding-top: 30px;
+}
+
+
+
+/* projects */
+
+.projects {
+    width: 70%;
+    margin-top: 100px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 50px 50px 0px 40px;
+}
+
+.aboutme h2,
+.projects h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+.project-description {
+    margin-left: 40px;
+}
+
+/* weatherapp */
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.weatherapp {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: right;
+    color:white;
+}
+
+.temperature {
+    width: 50%;
+}
+
+.location h1 {
+    font-size: x-large;
+}
+
+.temperature {
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    font-size: 15px;
+}
+
+.degree-section h2 {
+    font-size: 20px;
+}
+
+
+/* background credit */
+
+.credit-bg {
+    position: relative;
+    bottom: -150px;
+    margin-left: 20px;
+    font-size: small;
+    color: grey;
+}
