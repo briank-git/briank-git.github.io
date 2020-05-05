@@ -62,13 +62,20 @@ header {
 /* about me */
 
 .aboutme {
-    width: 80%;
+    width: 75%;
     margin-left: 40px;
     margin-top: 75px;
 }
 
+.aboutme-paragraph {
+    margin-top: 40px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+
 .aboutme p {
-    padding-top: 30px;
     line-height: 1.6;
     font-size: large;
 }
@@ -78,8 +85,15 @@ header {
 /* projects */
 
 .projects {
-    width: 80%;
+    width: 75%;
     margin-top: 75px;
+    margin-left: 40px;
+}
+
+.project {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
 }
 
 
@@ -93,7 +107,7 @@ ul li{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    margin: 50px 50px 0px 40px;
+    margin-top: 50px;
 }
 
 .aboutme h2,
